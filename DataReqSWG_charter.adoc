@@ -1,4 +1,4 @@
-:Title: OGC (add title text)
+:Title: OGC Geospatial Data Requirements SWG Charter
 :titletext: {Title}
 :doctype: book
 :encoding: utf-8
@@ -15,11 +15,11 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: <yyyy-mm-dd>
+|Submission Date: 2024-03-23
 |Approval Date:   <yyyy-mm-dd>
-|Internal reference number of this OGC(R) document:    YY-nnnrx
+|Internal reference number of this OGC(R) document:    OGC 24-011
 |Category: OGC(R) Standards Working Group Charter
-|Authors:   <Name(s) of Editor or Editors>
+|Authors:   Joan Maso and Alba Brobia
 |===
 
 [cols = "^", frame = "none"]
@@ -30,7 +30,7 @@
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
-|Copyright (C) <year> Open Geospatial Consortium
+|Copyright (C) 2024 Open Geospatial Consortium
 |To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
 |===
 
@@ -52,7 +52,7 @@ Any questions, please contact OGC staff.
 
 To: OGC members & interested parties
 
-A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the OGC <Name of SWG>.  The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
+A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the OGC Geospatial Data Requirements SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
 
 The SWG name, statement of purpose, scope, list of deliverables, audience, and language specified in the proposal will constitute the SWG's official charter. Technical discussions may occur no sooner than the SWG's first meeting.
 
@@ -75,17 +75,22 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-////
-Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC Standards baseline, and OGC’s business plan.
-////
+TBD
+
+The purpose of this SWG is:
+
+* to develop the open Standards that enable the robust, transparent, and consistent use of geospatial data requirements and they FAIRness
+
+* to set a common background that satisfies current developments on geospatial data requirement systems and enable interoperable new ones
 
 == Business value proposition
 
-////
-This section provides a statement describing the value of this standards activity in relation to the OGC Membership, the geospatial community, and the wider IT community. This statement can be in terms of the interoperability problem being solved, processing Change requests to meet market (and Member requirements), a policy requirement and/or some other business value proposition. The proposition described in this section does not have to be in economic terms.
-////
+* contribute to the creation of a marketplace where user needs are connected to data producers that can fill the gaps in the current data products and satisfy the user needs.
+
+* specify a set of products that needs to be created maintain and curated to fulfill the needs of a community.
 
 == Scope of work
+
 
 ////
 This section describes the scope of work (SOW) for the work of the SWG. There are typically at least three (3) cases that justify the formation of a SWG: A group of members decide to develop a new OGC candidate Standard from scratch, there is a draft submission being discussed by OGC members, or there are outstanding Change Requests for an existing OGC Standard and a revision is required.
@@ -101,7 +106,26 @@ For a SWG focused on revisions to an existing adopted Standard, the SOW should i
 In all cases, the SWG Charter shall provide a basic timeline plan for their activities.
 ////
 
+The Scope of Work of the GDR SWG encompasses the following.
+
+* Identification of core needs for GDRs.
+
+* Standardization of a data model to describe user requirements
+
+* Standardization of a OGC API to create, modify, retrieve and delete requirements
+
+* Promote the use of standardized requirements by users (e.g. projects using geospatial data) and .producer
+
+
 === Statement of relationship of planned work to the current OGC Standards baseline
+
+* ISO 19115 (OGC abstract Topic 11 - Metadata)
+
+* OGC abstract Topic Topic 20 - Observations, measurements and samples
+
+* OGC API Records
+
+* OGC GUF
 
 ////
 This section describes the relationship of the proposed standards activity to the existing Standards baseline. For the 3 cases:
@@ -114,11 +138,16 @@ If processing a draft submission of a specification developed outside the OGC pr
 
 === What is out of scope?
 
+* Define a list of geospatial data products
+* Define metadata describing existing datasets
+
 ////
 A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
 ////
 
 === Specific existing work used as starting point
+
+CIS2, NOAA, WMO/OSCAR, G-reqs
 
 ////
 This section provides reference information relevant to the work of the SWG. For example, a document reference for a draft submission or a list of CRPs for a SWG focused on revision to an adopted specification.
@@ -126,11 +155,13 @@ This section provides reference information relevant to the work of the SWG. For
 
 === Is this a persistent SWG
 
-[x] YES
+[ ] YES
 
-[ ] NO
+[x] NO
 
 === When can the SWG be inactivated
+
+When the two planned standards (data model and OGC API) has been approved and there are not pending issues.
 
 ////
 If this is not a persistent SWG, please define the criteria for determining when the SWG can be inactivated and the project archived. Please note that completion and archiving ensures that all files, wikis, emails, and so forth are archived and available for future viewing and use.
@@ -164,6 +195,8 @@ Describe each additional Standard to be developed by the SWG as an additional ta
 
 == Anticipated audience / participants
 
+GEO, EuroGEO, Data iniciatives, EO networks, Research infrastructure, data provider (including cartografic institudes and private companies), research and innovation projects requiring geospatial data.
+
 ////
 Description of the target participants in this SWG. For example, if the SWG were focused on a candidate spatial query language standard: Those involved in the design, development, implementation, or use of elements listed above in "Scope of the Work".  This includes search service providers, prospective users of search services exposed as XML, information architects and bibliographic, metadata, and content provider.
 
@@ -171,6 +204,8 @@ This is not meant as a limiting statement but instead is intended to provide gui
 ////
 
 == Domain Working Group endorsement
+
+Metadata and Cataloguing DWG (MetaCat.DWG)
 
 ////
 The SWG will list all Domain Working Groups (DWGs) in which the SWG formation was discussed and/or chartered. If a DWG has specifically endorsed the formation of the SWG, then a statement of endorsement should be included.
@@ -186,6 +221,7 @@ Describe the work environment of the SWG, including the use of GitHub or GitLab.
 
 === Similar or applicable standards work (OGC and elsewhere)
 
+No international standards about the topic were detected.
 ////
 The following Standards and projects may be relevant to the SWG's planned work, although none currently provide the functionality anticipated by this committee's deliverables:
 
@@ -197,13 +233,19 @@ The SWG intends to seek and if possible maintain liaison with each of the organi
 
 === Details of first meeting
 
+Next Members Meeting or telephone conference call before.
+
 ////
 Example:
 The first meeting of the SWG will be held by telephone conference call at 10AM EDT on 1 October 2007. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
 ////
 
 === Projected on-going meeting schedule
+The GRI SWG will progress its work through:
 
+* Regular online meetings; and
+
+* Organization of SWG sessions at the OGC Member Meetings.
 ////
 Example:
 The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.
@@ -215,7 +257,11 @@ The following people support this proposal and are committed to the Charter and 
 
 |===
 |Name |Organization
-| |
+| | NOAA
+| | EEA
+|Jose Miguel | Copernicus in-situ component
+| | GEO
+| | CREAF
 |===
 
 === Conveners
