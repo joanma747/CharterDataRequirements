@@ -52,7 +52,7 @@ Any questions, please contact OGC staff.
 
 To: OGC members & interested parties
 
-A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the OGC Geospatial Data Requirements SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
+A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the OGC Geospatial Data Requirements (GDR) SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
 
 The SWG name, statement of purpose, scope, list of deliverables, audience, and language specified in the proposal will constitute the SWG's official charter. Technical discussions may occur no sooner than the SWG's first meeting.
 
@@ -75,19 +75,23 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-TBD
+Data requirements are the specifications of what data a project needs to collect, store, analyze, and present. They are essential for defining the scope and objectives of a project, as well as for designing the data model and architectures for derived systems. However, during the study on previous existing models for describing geospatial data requirements (https://doi.org/10.3390/rs15061589), the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the data requirements standardization.
 
 The purpose of this SWG is:
 
-* to develop the open Standards that enable the robust, transparent, and consistent use of geospatial data requirements and they FAIRness
+* to develop an open Standard that enable the robust, transparent, and consistent use of geospatial data requirements and they FAIRness
 
-* to set a common background that satisfies current developments on geospatial data requirement systems and enable interoperable new ones
+* to set a common background that satisfies current developments on geospatial data requirement systems and enable interoperable new ones.
 
 == Business value proposition
 
-* contribute to the creation of a marketplace where user needs are connected to data producers that can fill the gaps in the current data products and satisfy the user needs.
+Understanding data requirements is a crucial first step for producing data that fits its intended purpose. However, often data providers do not know the real needs of users, posing a threat to the effective utilization of this data. 
 
-* specify a set of products that needs to be created maintain and curated to fulfill the needs of a community.
+The Business value proposition of this SWG is:
+
+* to contribute to the creation of a marketplace where user needs are connected to data producers that can fill the gaps in the current data products and satisfy the user needs
+
+* to specify a set of products that needs to be created maintain and curated to fulfill the needs of a community.
 
 == Scope of work
 
