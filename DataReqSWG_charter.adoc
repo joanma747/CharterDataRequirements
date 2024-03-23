@@ -228,7 +228,7 @@ The SWG will list all Domain Working Groups (DWGs) in which the SWG formation wa
 
 === Collaboration
 
-The SWG is using GitHub (XXX) as the collaboration environment for management of Standard document and related content
+The SWG is using GitHub (https://github.com/joanma747/CharterDataRequirements) as the collaboration environment for management of Standard document and related content.
 
 ////
 Describe the work environment of the SWG, including the use of GitHub or GitLab.
