@@ -75,7 +75,7 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-Data requirements are the specifications of what data a project needs to collect, store, analyze, and present. They are essential for defining the scope and objectives of a project, as well as for designing the data model and architectures for derived systems. However, during the study on previous existing models for describing geospatial data requirements (https://doi.org/10.3390/rs15061589), the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the data requirements standardization.
+Data requirements are the specifications of what data a project needs to collect, store, analyze, and present. They are essential for defining the scope and objectives of a project, as well as for designing the data model and architectures for derived systems. However, during the study on previous existing models for describing geospatial data requirements (https://doi.org/10.3390/rs15061589), the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the **Geospatial Data Requirements** standardization.
 
 The purpose of this SWG is:
 
@@ -85,7 +85,7 @@ The purpose of this SWG is:
 
 == Business value proposition
 
-Understanding data requirements is a crucial first step for producing data that fits its intended purpose. However, often data providers do not know the real needs of users, posing a threat to the effective utilization of this data. 
+Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, often data providers do not know the real needs of users, posing a threat to the effective utilization of this data. 
 
 The Business value proposition of this SWG is:
 
@@ -94,7 +94,6 @@ The Business value proposition of this SWG is:
 * to specify a set of products that needs to be created maintain and curated to fulfill the needs of a community.
 
 == Scope of work
-
 
 ////
 This section describes the scope of work (SOW) for the work of the SWG. There are typically at least three (3) cases that justify the formation of a SWG: A group of members decide to develop a new OGC candidate Standard from scratch, there is a draft submission being discussed by OGC members, or there are outstanding Change Requests for an existing OGC Standard and a revision is required.
@@ -110,9 +109,9 @@ For a SWG focused on revisions to an existing adopted Standard, the SOW should i
 In all cases, the SWG Charter shall provide a basic timeline plan for their activities.
 ////
 
-The Scope of Work of the GDR SWG encompasses the following.
+The Scope of Work of the GDR SWG encompasses the following activities:
 
-* Identification of core needs for GDRs.
+* Identification of core needs for GDRs
 
 * Standardization of a data model to describe user requirements
 
@@ -122,6 +121,8 @@ The Scope of Work of the GDR SWG encompasses the following.
 
 
 === Statement of relationship of planned work to the current OGC Standards baseline
+
+The planned work for GDRr will rely upon the existing OGC and ISO standards, such as the following:
 
 * ISO 19115 (OGC abstract Topic 11 - Metadata)
 
@@ -141,17 +142,22 @@ If processing a draft submission of a specification developed outside the OGC pr
 ////
 
 === What is out of scope?
+The following activities are out of scope for this GDR SWG:
 
 * Define a list of geospatial data products
-* Define metadata describing existing datasets
+* Define metadata describing existing datasets.
 
 ////
 A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
 ////
 
 === Specific existing work used as starting point
+The reference work relevant for this GDR SWG is the following:
 
-CIS2, NOAA, WMO/OSCAR, G-reqs
+* https://cis2.eea.europa.eu/about[Copernicus In Situ Component Information System (CIS2)]
+* https://www.nesdis.noaa.gov/node/11226[National Oceanic and Atmospheric Administration - Office of System Architecture and Advanced Planning (NOAA - OSAAP)]
+* https://space.oscar.wmo.int/observingrequirements[World Meteorological Organization - Observing Systems Capability Analysis and Review Tool (WMO OSCAR/Requirements)]
+* https://doi.org/10.3390/rs15061589[Geospatial in-situ requirements (G-reqs)]
 
 ////
 This section provides reference information relevant to the work of the SWG. For example, a document reference for a draft submission or a list of CRPs for a SWG focused on revision to an adopted specification.
@@ -172,6 +178,10 @@ If this is not a persistent SWG, please define the criteria for determining when
 ////
 
 == Description of deliverables
+The GDR SWG proposes the following deliverables:
+
+* provision of a common standard for Geospatial Data Requirements
+* make the Geospatial Data Requirements interoperable by means of the new OGC APIs.
 
 ////
 This section describes what the deliverables will be for this SWG activity. Deliverables could be a revision to an existing Standard, including revisions to schemas. A deliverable could also be a best practices document.
@@ -199,7 +209,7 @@ Describe each additional Standard to be developed by the SWG as an additional ta
 
 == Anticipated audience / participants
 
-GEO, EuroGEO, Data iniciatives, EO networks, Research infrastructure, data provider (including cartografic institudes and private companies), research and innovation projects requiring geospatial data.
+Group on Earth Observations (GEO), EuroGEO, data iniciatives, Earth Observation networks, Research infrastructures, data provider (including cartographic institutes, public organizations and private companies), research and innovation projects requiring geospatial data.
 
 ////
 Description of the target participants in this SWG. For example, if the SWG were focused on a candidate spatial query language standard: Those involved in the design, development, implementation, or use of elements listed above in "Scope of the Work".  This includes search service providers, prospective users of search services exposed as XML, information architects and bibliographic, metadata, and content provider.
@@ -275,6 +285,7 @@ Name of individual(s) who started the SWG process. Could be the lead for an RFC 
 ////
 
 == References
+References are provided directly in the text of this charter.
 
 ////
 Optional list of references.
