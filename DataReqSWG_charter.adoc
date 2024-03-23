@@ -75,7 +75,7 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-Data requirements are the specifications of what data a project needs to collect, store, analyze, and present. They are essential for defining the scope and objectives of a project, as well as for designing the data model and architectures for derived systems. However, during the study on previous existing models for describing geospatial data requirements (https://doi.org/10.3390/rs15061589), the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the **Geospatial Data Requirements** standardization.
+Data requirements are the specifications of what data a project needs to collect, store, analyze, and present. They are essential for defining the scope and objectives of a project, as well as for designing the data model and architectures for derived systems. However, during the study on previous existing models for describing geospatial data requirementsfootnote:[https://doi.org/10.3390/rs15061589], the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the **Geospatial Data Requirements** standardization.
 
 The purpose of this SWG is:
 
@@ -154,10 +154,10 @@ A short description of any activities that will be out of scope for the SWG. For
 === Specific existing work used as starting point
 The reference work relevant for this GDR SWG is the following:
 
-* https://cis2.eea.europa.eu/about[Copernicus In Situ Component Information System (CIS2)]
-* https://www.nesdis.noaa.gov/node/11226[National Oceanic and Atmospheric Administration - Office of System Architecture and Advanced Planning (NOAA - OSAAP)]
-* https://space.oscar.wmo.int/observingrequirements[World Meteorological Organization - Observing Systems Capability Analysis and Review Tool (WMO OSCAR/Requirements)]
-* https://doi.org/10.3390/rs15061589[Geospatial in-situ requirements (G-reqs)]
+* Copernicus In Situ Component Information System (CIS2)footnote:[https://cis2.eea.europa.eu/about]
+* National Oceanic and Atmospheric Administration - Office of System Architecture and Advanced Planning (NOAA - OSAAP)footnote:[https://www.nesdis.noaa.gov/node/11226]
+* World Meteorological Organization - Observing Systems Capability Analysis and Review Tool (WMO OSCAR/Requirements)footnote:[https://space.oscar.wmo.int/observingrequirements]
+* Geospatial in-situ requirements (G-reqs)footnote:[https://doi.org/10.3390/rs15061589]
 
 ////
 This section provides reference information relevant to the work of the SWG. For example, a document reference for a draft submission or a list of CRPs for a SWG focused on revision to an adopted specification.
@@ -178,10 +178,6 @@ If this is not a persistent SWG, please define the criteria for determining when
 ////
 
 == Description of deliverables
-The GDR SWG proposes the following deliverables:
-
-* provision of a common standard for Geospatial Data Requirements
-* make the Geospatial Data Requirements interoperable by means of the new OGC APIs.
 
 ////
 This section describes what the deliverables will be for this SWG activity. Deliverables could be a revision to an existing Standard, including revisions to schemas. A deliverable could also be a best practices document.
@@ -190,7 +186,10 @@ This section also includes a preliminary schedule of activities. For example, an
 ////
 
 === Initial deliverables
+The following deliverables will be included in the initial results of the GDR SWG:
 
+* provision of common standard data model for Geospatial Data Requirements
+* make the Geospatial Data Requirements interoperable by means of the new OGC APIs.
 ////
 Describe the initial Standard(s) to be developed by the SWG.
 ////
@@ -228,6 +227,8 @@ The SWG will list all Domain Working Groups (DWGs) in which the SWG formation wa
 == Other informative information about the work of this SWG
 
 === Collaboration
+
+The SWG is using GitHub (XXX) as the collaboration environment for management of Standard document and related content
 
 ////
 Describe the work environment of the SWG, including the use of GitHub or GitLab.
@@ -273,19 +274,18 @@ The following people support this proposal and are committed to the Charter and 
 |Name |Organization
 | | NOAA
 | | EEA
-|Jose Miguel | Copernicus in-situ component
+|José Miguel | Copernicus In Situ component
 | | GEO
 | | CREAF
 |===
 
 === Conveners
-
+TBD
 ////
 Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted Standard.
 ////
 
 == References
-References are provided directly in the text of this charter.
 
 ////
 Optional list of references.
