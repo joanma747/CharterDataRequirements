@@ -75,93 +75,73 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-Data requirements are the specifications of what data a project needs to collect, store, analyze, and present. They are essential for defining the scope and objectives of a project, as well as for designing the data model and architectures for derived systems. However, during the study on previous existing models for describing geospatial data requirementsfootnote:[https://doi.org/10.3390/rs15061589], the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the **Geospatial Data Requirements** standardization.
+Data requirements are the specifications describing what data a project needs to collect, store, analyze, and present to achieve the objectives of such a project. Data requirements are derived from the scope and objectives of a project and condition the feasibility of the results. However, during the study on previous existing models for describing geospatial data requirementsfootnote:[https://doi.org/10.3390/rs15061589], the autors of this charter were not able to detect any specific standards neither in the Open Geospatial Consortium nor in any other standardization body. The identification of this gap represents an opportunity for the **Geospatial Data Requirements** standardization.
 
 The purpose of this SWG is:
 
-* to develop an open Standard that enable the robust, transparent, and consistent use of geospatial data requirements and they FAIRness
+* to develop open Standards that enable the robust, transparent, and consistent use of geospatial data requirements and they FAIRness
 
 * to set a common background that satisfies current developments on geospatial data requirement systems and enable interoperable new ones.
 
 == Business value proposition
 
-Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, often data providers do not know the real needs of users, posing a threat to the effective utilization of this data. 
+Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, often data providers create geospatial dataset that they believe are feasible and useful but they might do not completely know the real needs of users, resulting in reduced effective utilization of this data. Requirements can be collected and used for define and provide a single data product, or can be used to defined a collection of datasets that cover a particular domain.
 
 The Business value proposition of this SWG is:
 
-* to contribute to the creation of a marketplace where user needs are connected to data producers that can fill the gaps in the current data products and satisfy the user needs
+* to contribute to the creation of a marketplace where user needs are connected to data producers. This way when requirement can not be covered with existing datasets, data producers can fill the gaps in the current data products and satisfy the user needs.
 
-* to specify a set of products that needs to be created maintain and curated to fulfill the needs of a community.
+* to specify a set of products that needs to be created maintain and curated to fulfill the needs of a community working in a particular domain.
+
+The following list is considered are target users for this initiative: Group on Earth Observations (GEO), EuroGEO, data initiatives, Earth Observation networks, Research infrastructures, data provider (including cartographic institutes, public organizations and private companies), research and innovation projects requiring geospatial data.
 
 == Scope of work
-
-////
-This section describes the scope of work (SOW) for the work of the SWG. There are typically at least three (3) cases that justify the formation of a SWG: A group of members decide to develop a new OGC candidate Standard from scratch, there is a draft submission being discussed by OGC members, or there are outstanding Change Requests for an existing OGC Standard and a revision is required.
-
-The following describes the characteristics of a SOW for each of these cases.
-
-For a SWG focused on defining and documenting a new OGC candidate Standard from “scratch,” the SOW SHALL include a statement of the requirements and use cases for the candidate Standard being developed. The SOW SHALL also include a justification statement for developing a new candidate OGC Standard. The SOW SHALL also describe how the new candidate Standard is related to the existing OGC Standards baseline and the OGC Reference Model. The final deliverable of a “from scratch” focused SWG SHALL be a candidate Standard ready for submission using the OGC standards process.
-
-For a SWG focused on processing a draft submission such as a specification developed outside the OGC and submitted into the OGC for consideration, the SOW would include evaluation of the submission in terms of the relationship to the existing OGC Standards baseline (see section below). The final deliverable of such a SWG SHALL be a candidate Standard for consideration by the membership for adoption.
-
-For a SWG focused on revisions to an existing adopted Standard, the SOW should include a statement that the SWG will collect all outstanding Change Request Proposals (CRPs), evaluate each of the proposals, and make edits to the Standard based on CRPs and related decisions of the SWG membership. The SWG, at their discretion, may also ask the membership for any additional change requests that have not been previous submitted. Again, the final deliverable of a revision focused SWG SHALL be a revision of the candidate Standard for consideration by the membership for adoption.
-
-In all cases, the SWG Charter shall provide a basic timeline plan for their activities.
-////
 
 The Scope of Work of the GDR SWG encompasses the following activities:
 
 * Identification of core needs for GDRs
 
-* Standardization of a data model to describe user requirements
+* Standardization of a data model to describe user requirements. While no preexisting standard was detected, some implementations of data requirements systems exist and will be used as a baseline to define a new OGC standard. 
 
-* Standardization of a OGC API to create, modify, retrieve and delete requirements
+* Standardization of a OGC API to create, modify, retrieve and delete requirements. While no preexisting standard was detected, some implementations exist. The group will study the possibility to associate a requirement to the concept of "feature" and use OGC API features as a baseline for the new OGC API.
 
-* Promote the use of standardized requirements by users (e.g. projects using geospatial data) and .producer
+* Promote the use of standardized requirements by users (e.g. projects using geospatial data) and producers
 
 
 === Statement of relationship of planned work to the current OGC Standards baseline
 
-The planned work for GDRr will rely upon the existing OGC and ISO standards, such as the following:
+A data model for geospatial user requirements can be done using metadata that describes the dataset. While metadata is not commonly defined by OGC, there are precedents of OGC standard reusing metadata and extending metadata such as Catalogue Service for the Web (CSW) and Geospatial User Feedback (GUF).
+
+The planned work for GDR will rely upon the existing OGC and ISO standards, such as the following:
 
 * ISO 19115 (OGC abstract Topic 11 - Metadata)
 
 * OGC abstract Topic Topic 20 - Observations, measurements and samples
 
+* OGC API Features 
+
 * OGC API Records
 
-* OGC GUF
-
-////
-This section describes the relationship of the proposed standards activity to the existing Standards baseline. For the 3 cases:
-If defining a new Standard, a statement of the relationship to the existing Standards baseline including statements related to overlap (if any) with existing OGC Standards functionality, harmonization issues, and so forth.
-
-If processing change requests and performing a revision to an existing Standard, a simple statement to this effect shall be made.
-
-If processing a draft submission of a specification developed outside the OGC process, a clear statement of the relationship to the existing Standards baseline including statements related to overlap (if any) with existing OGC Standards functionality, harmonization issues, and so forth. This information is provided to allow a focus of the discussion on criteria for considering any new solution that may be incompatible with older ones, overlaps existing functionality in the current baseline, and criteria for either deprecating older solutions, or simultaneously endorsing more than one option.
-////
+* OGC Geospatial User Feedback
 
 === What is out of scope?
 The following activities are out of scope for this GDR SWG:
 
-* Define a list of geospatial data products
-* Define metadata describing existing datasets.
-
-////
-A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
-////
+* Define a list of domain specific geospatial data products
+* Define metadata to describe existing datasets.
 
 === Specific existing work used as starting point
 The reference work relevant for this GDR SWG is the following:
 
 * Copernicus In Situ Component Information System (CIS2)footnote:[https://cis2.eea.europa.eu/about]
+
 * National Oceanic and Atmospheric Administration - Office of System Architecture and Advanced Planning (NOAA - OSAAP)footnote:[https://www.nesdis.noaa.gov/node/11226]
+
 * World Meteorological Organization - Observing Systems Capability Analysis and Review Tool (WMO OSCAR/Requirements)footnote:[https://space.oscar.wmo.int/observingrequirements]
+
 * Geospatial in-situ requirements (G-reqs)footnote:[https://doi.org/10.3390/rs15061589]
 
-////
-This section provides reference information relevant to the work of the SWG. For example, a document reference for a draft submission or a list of CRPs for a SWG focused on revision to an adopted specification.
-////
+The intention of the group is to analyze the previous work as starting point for the new Standards.
 
 === Is this a persistent SWG
 
@@ -171,34 +151,22 @@ This section provides reference information relevant to the work of the SWG. For
 
 === When can the SWG be inactivated
 
-When the two planned standards (data model and OGC API) has been approved and there are not pending issues.
-
-////
-If this is not a persistent SWG, please define the criteria for determining when the SWG can be inactivated and the project archived. Please note that completion and archiving ensures that all files, wikis, emails, and so forth are archived and available for future viewing and use.
-////
+When the two planned standards (data model and OGC API) has been approved and there are not pending issues the group will be inactivated
 
 == Description of deliverables
-
-////
-This section describes what the deliverables will be for this SWG activity. Deliverables could be a revision to an existing Standard, including revisions to schemas. A deliverable could also be a best practices document.
-
-This section also includes a preliminary schedule of activities. For example, an RFC focused SWG schedule would provide a plan and schedule that includes the start date, target date for release of the candidate Standard for public review, date for consolidation of comments, date for edits to document based on comments, and a final target date for making a recommendation to the Membership. This information will be made public and will also be used as input to a RoadMap for the document. Therefore, the more detail the better.
-////
 
 === Initial deliverables
 The following deliverables will be included in the initial results of the GDR SWG:
 
 * provision of common standard data model for Geospatial Data Requirements
-* make the Geospatial Data Requirements interoperable by means of the new OGC APIs.
-////
-Describe the initial Standard(s) to be developed by the SWG.
-////
+
+* make the Geospatial Data Requirements FAIR by means of the new OGC APIs.
+
+This to deliverables will be done in sequence starting by defining the data model for geospatial data requirements.  The initial objective of the group is to be able to write the first complete standard draft in 9 month and present it to the OAB for consideration. Once the data model for data requirements is drafted and submitted to the OAB, the second deliverable will be started. 
 
 === Additional SWG tasks
 
-////
-Describe each additional Standard to be developed by the SWG as an additional task after the deliverables from the initial charter have been completed. This section is blank in a new charter, then is populated with each task approval request per the OGC TC Policies and Procedures.
-////
+No additional tasks are foreseen at this point.
 
 == IPR Policy for this SWG
 
@@ -208,63 +176,36 @@ Describe each additional Standard to be developed by the SWG as an additional ta
 
 == Anticipated audience / participants
 
-Group on Earth Observations (GEO), EuroGEO, data iniciatives, Earth Observation networks, Research infrastructures, data provider (including cartographic institutes, public organizations and private companies), research and innovation projects requiring geospatial data.
+Any actor that is involved in using data in their activities that have previous experiences in defining potential datasets are invited to participate in this group.
 
-////
-Description of the target participants in this SWG. For example, if the SWG were focused on a candidate spatial query language standard: Those involved in the design, development, implementation, or use of elements listed above in "Scope of the Work".  This includes search service providers, prospective users of search services exposed as XML, information architects and bibliographic, metadata, and content provider.
-
-This is not meant as a limiting statement but instead is intended to provide guidance to interested potential participants as to whether they wish to participate in this SWG.
-////
+In particular, activities related with preparing data and processing data are welcome to contribute to this work. Examples are Analysis Ready Data (ARD) and OGC API Processes. Thematic groups that now the needs of their communities can also be useful contributors such as MetOcean.  
 
 == Domain Working Group endorsement
 
-Metadata and Cataloguing DWG (MetaCat.DWG)
-
-////
-The SWG will list all Domain Working Groups (DWGs) in which the SWG formation was discussed and/or chartered. If a DWG has specifically endorsed the formation of the SWG, then a statement of endorsement should be included.
-////
+The Metadata and Cataloguing DWG (MetaCat.DWG) seems the right DWG to endorse this group
 
 == Other informative information about the work of this SWG
 
 === Collaboration
 
-The SWG is using GitHub (https://github.com/joanma747/CharterDataRequirements) as the collaboration environment for management of Standard document and related content.
+The SWG would like to use GitHub  as the collaboration environment for management of Standard document and related content.
 
-////
-Describe the work environment of the SWG, including the use of GitHub or GitLab.
-////
+This draft was initially started in https://github.com/joanma747/CharterDataRequirements and will be move to the "opengeospatial" GitHub as the work progresses.
 
 === Similar or applicable standards work (OGC and elsewhere)
 
 No international standards about the topic were detected.
-////
-The following Standards and projects may be relevant to the SWG's planned work, although none currently provide the functionality anticipated by this committee's deliverables:
-
-OASIS BPEL
-IETF HTTP
-
-The SWG intends to seek and if possible maintain liaison with each of the organizations maintaining the above works.
-////
 
 === Details of first meeting
 
 Next Members Meeting or telephone conference call before.
 
-////
-Example:
-The first meeting of the SWG will be held by telephone conference call at 10AM EDT on 1 October 2007. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
-////
-
 === Projected on-going meeting schedule
 The GRI SWG will progress its work through:
 
-* Regular online meetings; and
+* Regular monthly online meetings; and
 
 * Organization of SWG sessions at the OGC Member Meetings.
-////
-Example:
-The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.
-////
 
 === Supporters of this Charter
 
@@ -272,21 +213,17 @@ The following people support this proposal and are committed to the Charter and 
 
 |===
 |Name |Organization
-| | NOAA
-| | EEA
-|José Miguel | Copernicus In Situ component
-| | GEO
-| | CREAF
+|TBD | NOAA
+|TBD | EEA
+|José Miguel Rubio | Copernicus In Situ component
+|TBD | GEO
+|Joan Maso and Alba brobia | CREAF
 |===
 
 === Conveners
-TBD
-////
-Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted Standard.
-////
+Joan Maso and Alba brobia are starting the SWG process but others are welcome.
+
 
 == References
 
-////
-Optional list of references.
-////
+See footnotes includes this document. 
