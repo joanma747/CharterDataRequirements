@@ -85,7 +85,7 @@ The purpose of this SWG is:
 
 == Business value proposition
 
-Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, often data providers create geospatial dataset that they believe are feasible and useful but they might do not completely know the real needs of users, resulting in reduced effective utilization of this data. Requirements can be collected and used for define and provide a single data product, or can be used to defined a collection of datasets that cover a particular domain.
+Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, often data providers create geospatial dataset that they believe are feasible and useful but they might do not completely know the real needs of users, resulting in reduced effective utilization of this data. Requirements can be collected and used to define and provide a single data product, or can be used to define a collection of datasets that cover a particular domain.
 
 The Business value proposition of this SWG is:
 
@@ -101,11 +101,11 @@ The Scope of Work of the GDR SWG encompasses the following activities:
 
 * Identification of core needs for GDRs
 
-* Standardization of a data model to describe user requirements. While no preexisting standard was detected, some implementations of data requirements systems exist and will be used as a baseline to define a new OGC standard. 
+* Standardization of a data model to describe user requirements. While no preexisting standard was detected, some implementations of data requirements systems exist and will be used as a baseline to define a new OGC standard
 
-* Standardization of a OGC API to create, modify, retrieve and delete requirements. While no preexisting standard was detected, some implementations exist. The group will study the possibility to associate a requirement to the concept of "feature" and use OGC API features as a baseline for the new OGC API.
+* Standardization of a OGC API to create, modify, retrieve and delete requirements. While no preexisting standard was detected, some implementations exist. The group will study the possibility to associate a requirement to the concept of "feature" and use OGC API features as a baseline for the new OGC API
 
-* Promote the use of standardized requirements by users (e.g. projects using geospatial data) and producers
+* Promotion of the use of standardized requirements by users (e.g. projects using geospatial data) and producers.
 
 
 === Statement of relationship of planned work to the current OGC Standards baseline
@@ -162,7 +162,7 @@ The following deliverables will be included in the initial results of the GDR SW
 
 * make the Geospatial Data Requirements FAIR by means of the new OGC APIs.
 
-This to deliverables will be done in sequence starting by defining the data model for geospatial data requirements.  The initial objective of the group is to be able to write the first complete standard draft in 9 month and present it to the OAB for consideration. Once the data model for data requirements is drafted and submitted to the OAB, the second deliverable will be started. 
+This two deliverables will be done in sequence starting by defining the data model for geospatial data requirements.  The initial objective of the group is to be able to write the first complete standard draft in 9 month and present it to the OAB for consideration. Once the data model for data requirements is drafted and submitted to the OAB, the second deliverable will be started. 
 
 === Additional SWG tasks
 
@@ -178,7 +178,7 @@ No additional tasks are foreseen at this point.
 
 Any actor that is involved in using data in their activities that have previous experiences in defining potential datasets are invited to participate in this group.
 
-In particular, activities related with preparing data and processing data are welcome to contribute to this work. Examples are Analysis Ready Data (ARD) and OGC API Processes. Thematic groups that now the needs of their communities can also be useful contributors such as MetOcean.  
+In particular, activities related with preparing data and processing data are welcome to contribute to this work. Examples are Analysis Ready Data (ARD) and OGC API Processes. Thematic groups that know the needs of their communities can also be useful contributors such as MetOcean.  
 
 == Domain Working Group endorsement
 
