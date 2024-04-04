@@ -151,7 +151,7 @@ The intention of the group is to analyze the previous work as starting point for
 
 === When can the SWG be inactivated
 
-When the two planned standards (data model and OGC API) has been approved and there are not pending issues the group will be inactivated
+When the two planned standards (data model and OGC API) has been approved and there are not pending issues the group will be inactivated.
 
 == Description of deliverables
 
@@ -182,7 +182,7 @@ In particular, activities related with preparing data and processing data are we
 
 == Domain Working Group endorsement
 
-The Metadata and Cataloguing DWG (MetaCat.DWG) seems the right DWG to endorse this group
+The Metadata and Cataloguing DWG (MetaCat.DWG) seems the right DWG to endorse this group.
 
 == Other informative information about the work of this SWG
 
@@ -215,7 +215,7 @@ The following people support this proposal and are committed to the Charter and 
 |Name |Organization
 |TBD | NOAA
 |TBD | EEA
-|José Miguel Rubio | Copernicus In Situ component
+|TBD | Copernicus In Situ component
 |TBD | GEO
 |Joan Maso and Alba brobia | CREAF
 |===
