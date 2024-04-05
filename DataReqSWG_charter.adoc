@@ -213,12 +213,17 @@ The following people support this proposal and are committed to the Charter and 
 
 |===
 |Name |Organization
-|TBD | NOAA
-|TBD | EEA
-|TBD | Copernicus In Situ component
-|TBD | GEO
+|TBD | TBD
+|TBD | TBD
+|TBD | TBD
+|... | ...
 |Joan Maso and Alba brobia | CREAF
 |===
+
+Non-members of OGC also contributed the charter and plan to support the work, as follows.
+
+* TBD
+
 
 === Conveners
 Joan Maso and Alba Brobia are starting the SWG process but others are welcome.
@@ -226,4 +231,4 @@ Joan Maso and Alba Brobia are starting the SWG process but others are welcome.
 
 == References
 
-See footnotes includes this document. 
+See footnotes included in this document. 
