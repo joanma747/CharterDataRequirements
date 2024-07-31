@@ -15,7 +15,7 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2024-05-30
+|Submission Date: 2024-07-30
 |Approval Date:   <yyyy-mm-dd>
 |Internal reference number of this OGC(R) document:    OGC 24-011r1
 |Category: OGC(R) Standards Working Group Charter
@@ -52,7 +52,7 @@ Any questions, please contact OGC staff.
 
 To: OGC members & interested parties
 
-A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the OGC Geospatial Data Requirements (GDR) SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
+A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the  Geospatial Observation Needs And Requirements (GONAR) SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
 
 The SWG name, statement of purpose, scope, list of deliverables, audience, and language specified in the proposal will constitute the SWG's official charter. Technical discussions may occur no sooner than the SWG's first meeting.
 
@@ -95,7 +95,7 @@ The Business value proposition of this SWG is:
 
 * to specify the sets of observations that a software process of model needs as an input.
 
-Potential target users for this initiative are: Group on Earth Observations (GEO), Earth observation in-situ networks, Research infrastructures, users of observations (including scientists, innovators, modelers, digital twins, decision makers) and data providers (including cartographic institutes, public organizations and private companies), etc.
+Potential target users for this initiative are: Group on Earth Observations (GEO), Earth observation in-situ networks, Research infrastructures, users of observations (including scientists, innovators, modelers, digital twins, decision makers) and data providers (including cartographic institutes, public organizations, private companies and data spaces), etc.
 
 == Scope of work
 
@@ -129,7 +129,7 @@ The planned work for GONAR will rely upon the existing OGC and ISO standards, su
 * OGC Geospatial User Feedback.
 
 === What is out of scope?
-The following activities are out of scope for this GDR SWG:
+The following activities are out of scope for this GONAR SWG:
 
 * Define software or interfaces user requirements and its corresponding technical requirements.
 * Define product specifications at the producer level.
@@ -227,7 +227,7 @@ The following people support this proposal and are committed to the Charter and 
 
 |===
 |Name |Organization
-|Joan Maso and Alba brobia | CREAF
+|Joan Maso and Alba Brobia | CREAF
 |Alex Ramage | Scottish Government
 |===
 
