@@ -52,7 +52,7 @@ Any questions, please contact OGC staff.
 
 To: OGC members & interested parties
 
-A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the  Geospatial Observation Needs And Requirements (GONAR) SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
+A new OGC Standards Working Group (SWG) is being formed. The OGC members listed below have proposed the  Geospatial Observation Needs And Requirements (GONAR) SWG Charter. The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
 
 The SWG name, statement of purpose, scope, list of deliverables, audience, and language specified in the proposal will constitute the SWG's official charter. Technical discussions may occur no sooner than the SWG's first meeting.
 
@@ -75,61 +75,62 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-For the purpose of this charter, _Data requirements_ are the specifications describing datasets that a project needs to collect, store, analyze, and present to achieve the objectives of such a project. Datasets and their requirements are derived from the scope and objectives of the project and condition the feasibility of the results of the project. During a study on previous existing models for describing geospatial data requirements footnote:[https://doi.org/10.3390/rs15061589], the authors of this charter were not able to detect any specific standard that consider data requirements that focus on observations from the point of view of the user, neither in the Open Geospatial Consortium nor in any other standardization body. The closer standard found was the ISO 19131 that defines data product specifications from the point of view and level of detail of the producer. There is also the Analysis Ready Data (ARD) SWG that deals with product specifications (producer point of view) for a selected group of harmonized remote sensing products. The lack of data requirements from the point of view of the user needs description with focus on observations is identified as a gap and represents an opportunity for the **Geospatial Observation and Needs and Requirements** standardization.
+For the purpose of this charter, _Data requirements_ are the specifications describing datasets that a project needs to collect, store, analyze, and present to achieve the objectives of such a project. Datasets and their requirements are derived from the scope and objectives of the project and condition the feasibility of the results of the project. During a study on previous existing models for describing geospatial data requirements footnote:[https://doi.org/10.3390/rs15061589], the authors of this charter were not able to identify any specific standard (in the OGC or in any other standardization body) which considers data requirements that focus on observations from the point of view of the user. The most applicable standard found was ISO 19131, that defines data product specifications from the point of view and level of detail of the producer. There is also the Analysis Ready Data (ARD) SWG that deals with product specifications (producer point of view) for a selected group of harmonized remote sensing products. The lack of data requirements from the point of view of the user needs description with focus on observations is identified as a gap and represents an opportunity for the **Geospatial Observation and Needs and Requirements** standardization.
 
 The purpose of this SWG is:
 
-* to develop open Standards that enable the robust, transparent, and consistent use of geospatial observation user needs and requirements and their FAIRness
+* to develop open Standards that enable the robust, transparent, and consistent use of geospatial observation user needs and requirements and their FAIRness; and
 
-* to set a common background that satisfies current developments on geospatial data requirements systems and enable interoperable new ones.
+* to set a common foundation that satisfies current developments on geospatial data requirements systems and enables interoperable new systems.
 
 == Business value proposition
 
-Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, often data providers create geospatial dataset that they believe are feasible and useful, based on product specifications, but they might not completely know the real needs of users, resulting in reduced effective utilization of data. Requirements can be collected and utilized to define and provide a single data product, or can be used to define a collection of datasets that cover a particular thematic domain.
+Understanding data user requirements is a crucial initial step for producing data that fits its intended purpose. However, data providers often create geospatial datasets that they believe are feasible and useful, based on product specifications, but those providers might not completely know the real needs of users, resulting in reduced effective utilization of data. Requirements can be collected and utilized to define and provide a single data product or can be used to define a collection of datasets that cover a particular thematic domain.
 
-The Business value proposition of this SWG is:
+The Business value proposition of this SWG is as follows.
 
-* to contribute to the creation of a marketplace where user needs are connected to data producers. This way, when a requirement for observations can not be covered with existing datasets or product specification (e.g. Air quality data is not updated every hour, so a pollutant plume cannot be tracked), data producers can fill the gaps in the current data products by deploying new sensors and extend their product specifications to satisfy user needs (e.g. A new Air quality dataset is produced every hour, just in case a pollution plume needs to be tracked).
+* Contribute to the creation of a marketplace where user needs are connected to data producers. This way, when a requirement for observations can not be covered with existing datasets or product specifications (e.g., air quality data is not updated every hour, so a pollutant plume cannot be tracked), data producers can fill the gaps in the current data products by deploying new sensors and extend their product specifications to satisfy user needs (e.g., a new Air quality dataset is produced every hour, just in case a pollution plume needs to be tracked).
 
-* to specify a set of observations to be created, maintained and curated to fulfill the needs of a community working in a particular thematic domain (for example, the Essential Climate Variable products are specified in terms of their spatial and temporal resolution, timeliness, etc.).
+* Specify a set of observations to be created, maintained, and curated to fulfill the needs of a community working in a particular thematic domain (for example, the Essential Climate Variable products are specified in terms of their spatial and temporal resolution, timeliness, etc.).
 
-* to specify the sets of observations that a software process of model needs as an input.
+* Specify the sets of observations that a software process of model needs as an input.
 
-Potential target users for this initiative are: Group on Earth Observations (GEO), Earth observation in-situ networks, Research infrastructures, users of observations (including scientists, innovators, modelers, digital twins, decision makers) and data providers (including cartographic institutes, public organizations, private companies and data spaces), etc.
+Target users for this initiative are: Group on Earth Observations (GEO), Earth observation in-situ networks, Research infrastructures, users of observations (including scientists, innovators, modelers, digital twins, decision makers), and data providers (including cartographic institutes, public organizations, private companies, and data spaces).
 
 == Scope of work
 
-The Scope of Work of the GONAR SWG encompasses the following activities:
+The Scope of Work of the GONAR SWG encompasses the following activities.
 
 * Identification of core needs for Geospatial Observation Needs And Requirements.
 
-* Standardization of a data model to describe data and observational user need and requirements. While no preexisting standard was detected, some implementations of data requirements systems exist and will be used as a baseline to define a new OGC standard (see Section 3.3: Specific existing work used as starting point)
+* Standardization of a data model to describe data and observational user need and requirements. While no preexisting standard is known to exist, some implementations of data requirements systems exist and will be used as a baseline to define a new OGC standard (see Section 3.3: Specific existing work used as starting point).
 
-* Standardization of a OGC API to create, modify, retrieve and delete descriptions of data needs and requirements. The group will study the possibility to associate a requirement to the concept of "feature" and use OGC API Features or OGC API Records as a baseline for the new OGC API.
+* Standardization of an OGC API to create, modify, retrieve, and delete descriptions of data needs and requirements. The group will study the possibility to associate a requirement to the concept of "feature" and use OGC API - Features or OGC API - Records as a baseline for the new OGC API.
 
-* Promotion of the use of standardized requirements by data users (e.g. projects using observational data) and data producers.
+* Promotion of the use of standardized requirements by data users (e.g., projects using observational data) and data producers.
 
-* Collaborate with the domain DWG (such as MUDDI, WaterML, etc) to test the generic approach for Geospatial Observation Needs And Requirements in their thematic areas.
+* Collaborate with other OGC Working Groups (such as MUDDI, WaterML, etc.) to test the generic approach for Geospatial Observation Needs And Requirements in their thematic areas.
 
 
 === Statement of relationship of planned work to the current OGC Standards baseline
 
-A data model for Geospatial Observation Needs And Requirements can be designed using metadata that describes the dataset. While metadata standards are not commonly defined by OGC, there are precedents of OGC standard reusing metadata and extending metadata such as the Catalogue Service for the Web (CSW) and the Geospatial User Feedback (GUF).
+A data model for Geospatial Observation Needs And Requirements can be designed using metadata that describes the dataset. While metadata standards are not commonly defined by OGC, there are precedents of OGC standard reusing metadata and extending metadata such as the Catalogue Service for the Web (CSW) and  Geospatial User Feedback (GUF).
 
-The planned work for GONAR will rely upon the existing OGC and ISO standards, such as the following:
+The planned work for GONAR will rely upon the existing OGC and ISO standards, such as the following.
 
-* ISO 191** metadata family, such as 19115 (OGC abstract Topic 11 - Metadata) and the 19131 (product specifications) as well as other metadata standards such as STAC, DCAT and DCAT-AP.
+* ISO 191** metadata family, such as 19115 (OGC abstract Topic 11 - Metadata) and ISO 19131 (product specifications) as well as other metadata standards such as STAC, DCAT, and DCAT-AP.
 
-* OGC abstract Topic 20 - Observations, measurements and samples.
+* OGC abstract Topic 20 - Observations, Measurements, and Samples.
 
-* Analysis Ready Data standards elaborated by the ARD.SWG.
+* Analysis Ready Data standards elaborated by the ARD SWG.
 
-* OGC API Records.
+* OGC API - Records.
 
 * OGC Geospatial User Feedback.
 
 === What is out of scope?
-The following activities are out of scope for this GONAR SWG:
+
+The following activities are out of scope for this GONAR SWG.
 
 * Define software or interfaces user requirements and its corresponding technical requirements.
 * Define product specifications at the producer level.
@@ -137,7 +138,8 @@ The following activities are out of scope for this GONAR SWG:
 * Define another metadata standard to describe existing datasets.
 
 === Specific existing work used as starting point
-The reference work relevant for this GONAR SWG is the following:
+
+The reference work relevant for this GONAR SWG is the following.
 
 * Copernicus In Situ Component Information System (CIS^2^) footnote:[https://cis2.eea.europa.eu/about]
 
@@ -153,9 +155,9 @@ The intention of the group is to analyze and extract commonalities in the previo
 
 === Is this a persistent SWG
 
-[ ] YES
+[X] YES
 
-[x] NO
+[ ] NO
 
 === When can the SWG be inactivated
 
@@ -164,13 +166,14 @@ When the two planned standards (needs and requirements model and OGC API) have b
 == Description of deliverables
 
 === Initial deliverables
+
 The following deliverables will be included in the initial results of the GONAR SWG:
 
-* provision of common standard needs and requirements model for Geospatial Observation Needs And Requirements
+* provision of common standard needs and requirements model for Geospatial Observation Needs And Requirements; and
 
 * make the Geospatial Observation Needs And Requirements FAIR by means of the new OGC APIs.
 
-This two deliverables will be done in sequence starting by defining the needs and requirements model for geospatial data and observations. The initial objective of the group is to be able to write the first complete standard draft in 9 month and present it to the OAB for consideration. Once the needs and requirements for data and observations requirements is drafted and submitted to the OAB, the second deliverable will be started. 
+This two deliverables will be done in sequence starting by defining the needs and requirements model for geospatial data and observations. The initial objective of the group is to be able to write the first complete standard draft in 9 months and present it to the OGC Architecture Board (OAB) for consideration. Once the needs and requirements for data and observations requirements is drafted and submitted to the OAB, the second deliverable will be started. 
 
 === Additional SWG tasks
 
@@ -184,37 +187,38 @@ No additional tasks are foreseen at this point.
 
 == Anticipated audience / participants
 
-Any actor that is involved in using observations and in-situ data in general in their activities that have previous experiences in defining potential datasets from the user point of view are invited to participate in this group.
+Anyone that is involved in using observations and in-situ data in general in their activities that have previous experiences in defining potential datasets from the user point of view are invited to participate in this group.
 
-In particular, activities related with preparing observational data and processing data are welcome to contribute to this work. Examples are Analysis Ready Data (ARD) and OGC API Processes. Thematic DWGs and SWGs that know the needs of their communities can also usefully contribute such as MetOcean, MUDDI, etc.  
+In particular, activities related with preparing observational data and processing data are welcome to contribute to this work. Examples are ARD and OGC API - Processes. Thematic DWGs and SWGs that know the needs of their communities can also usefully contribute such as MetOcean, MUDDI, etc.  
 
 == Domain Working Group endorsement
 
-The Metadata and Cataloguing DWG (MetaCat.DWG) is the right DWG to endorse this group.
+The Metadata and Catalogue DWG (MetaCat DWG) is proposed to endorse this group.
 
 == Other informative information about the work of this SWG
 
 === Collaboration
 
-The SWG would like to use GitHub as the collaboration environment for management of Standard document and related content and make the repository public.
+The SWG proposes to use GitHub as the collaboration environment for management of Standard document and related content and make the repository public.
 
-This draft was initially started in https://github.com/joanma747/CharterDataRequirements and will be move to the "opengeospatial" GitHub as the work progresses. It has been submitted to the "pending document" for its consideration in the 129th OGC Members meeting where it was approved by the TC and feedback was collected and incorporated
+This draft was initially started in https://github.com/joanma747/CharterDataRequirements and will be move to the "opengeospatial" GitHub as the work progresses.
 
 === Similar or applicable standards work (OGC and elsewhere)
 
-No international standards that is specific ofr observations and considers the user perspective was detected.
+No international standards that are specific to observations and which consider the user perspective were identified.
 
 === Details of first meeting
 
-Next OGC 130th Members Meeting or telephone conference call before.
+The SWG will meet within one month of approval of this charter.
 
 Previous to the first meeting, two ad-hoc sessions took place:
 
-* 128th OGC Members Meeting https://portal.ogc.org/index.php?m=projects&a=view&project_id=82&tab=2&artifact_id=107409
+* 128th OGC Members Meeting (March 2024) https://portal.ogc.org/index.php?m=projects&a=view&project_id=82&tab=2&artifact_id=107409
 
-* 129th OGC Members Meeting https://portal.ogc.org/index.php?m=projects&a=view&project_id=82&tab=2&artifact_id=107891
+* 129th OGC Members Meeting (June 2024) https://portal.ogc.org/index.php?m=projects&a=view&project_id=82&tab=2&artifact_id=107891
 
 === Projected on-going meeting schedule
+
 The GONAR SWG will progress its work through:
 
 * Regular monthly online meetings; and
@@ -238,6 +242,7 @@ Non-members of OGC also contributed this charter and plan to support the work, a
 
 
 === Conveners
+
 Joan Maso and Alba Brobia are starting the SWG process but others are more than welcome.
 
 
